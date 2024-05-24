@@ -1,0 +1,166 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  /* overflow: hidden; */
+  /* background: red; */
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    z-index: 100;
+    right: 0;
+    top: 0%;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rebeccapurple; */
+    padding: 30px 9%;
+    
+}
+
+header a{
+    color: #fff;
+}
+
+.logo{
+    font-size: 20px;
+}
+
+.navlist{
+    list-style: none;
+    color: #fff;
+    display: flex;
+}
+.navlist a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 60px;
+    transition: all .55s ease;
+}
+.navlist a:hover{
+    text-decoration: underline;
+}
+
+header i{
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#0058ac, #538df3, #103864);
+    position: relative;
+    display: grid;
+    align-items: center;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
+}
+
+.heroimg img{
+    width: 400px;
+    height: auto;
+    margin-left: 100px;
+}
+
+section{
+    /* overflow: hidden; */
+    padding: 0 19%;
+}
+
+.herotext h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.herotext h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 90px;
+    line-height: 1;
+    color: #fff;
+    margin: 0 0 45px;
+}
+.herotext h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.herotext p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 40px;
+}
+.herotext a{
+    display: inline-block;
+    color: #fff;
+    background-color: #2c7ece;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    /* font-size: 14px; */
+    transition: all 0.55s ease;
+}
+.herotext a:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+    transform: translateX(6px);
+}
+.herotext a.ctaa{
+    background: transparent;
+    border: 2px solid #fff;
+    margin-left: 20px;
+}
+.icons{
+    position: absolute;
+    top: 50%;
+    padding: 0 9%;
+    /* transform:translateY(-50%); */
+}
+.icons i{
+    display: block;
+    margin: 26px 0;
+    font-size: 24px;
+    color: #fff;
+    transition: all 0.55s ease;
+}
+.icons i:hover{
+    color:#00386d;
+    transform: translateY(-5px);
+}
+.scrolldown{
+    position: absolute;
+    bottom: 6%;
+    right: 9%;
+}
+.scrolldown i{
+    display: block;
+    padding: 12px;
+    font-size: 25px;
+    color: #fff;
+    background: #2c7ece;
+    border-radius: 30px;
+    transition: all 0.55s ease;
+}
+.scrolldown i:hover{
+    transform: translateY(-5px);
+}
